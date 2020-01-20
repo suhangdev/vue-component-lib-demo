@@ -1,9 +1,14 @@
 {
   "name": "vue-component-lib-demo",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
+  "main": "package/index.ts",
+  "files": [
+      "packages",
+      "lib"
+  ],
   "config": {
-    "target": "lib/$npm_package_version"
+    "target": "lib"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
