@@ -1,8 +1,9 @@
 {
   "name": "vue-component-lib-demo",
   "version": "1.1.0",
+  "author": "17816876697@163.com",
   "private": false,
-  "main": "package/index.ts",
+  "main": "lib/baselib.umd.min.js",
   "files": [
     "packages",
     "lib"
